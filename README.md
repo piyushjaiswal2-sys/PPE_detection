@@ -105,13 +105,3 @@ metrics = model.val(data="path/to/data.yaml")
 print(metrics.results_dict)
 ```
 
-## Future Improvements
-
-- Train on the full dataset rather than a 500/300 subset
-- Increase epochs / use a larger backbone (e.g. `yolov8s` or `yolov8m`)
-- Address class imbalance (several classes have <20 validation instances)
-- Add hyperparameter tuning and augmentation experiments
-
-## License
-
-Add your preferred license here (e.g. MIT).
